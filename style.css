@@ -1,0 +1,141 @@
+.card  {
+    background-color:aqua ;  
+    width: 1000px;
+    height: 800px;
+    margin: 100px auto;
+    position: relative;
+    z-index: 0;
+   
+  }
+  .cara {
+    position: absolute;
+    top: 32%;
+    right: 35%;
+    z-index: 20%;
+  }
+   
+  .oreja-izq  {
+    position: absolute;
+    top: 35%;
+    right: 33%; 
+  }
+  
+   .oreja-der  {
+    position: absolute;
+    top: 35%;
+    right: 58%; 
+  }
+  .sombrero:hover{
+    transform: rotate(360deg);
+    transition: 0.5s;
+    
+  }
+  .sombrero  {
+    position: absolute;
+    top: 20%;
+    right: 38%; 
+  }
+  .oreja-der:hover{
+    transform: rotate(60deg);
+    transition: 0.5s;
+  }
+  .ojo-izq  {
+    position: absolute;
+    top: 35%;
+    right: 42%; 
+    z-index: 3;
+  }
+  .ojo-der  {
+    position: absolute;
+    top: 35%;
+    right: 50%; 
+    z-index: 3;
+  }
+  .ojo-der:hover{
+    transform: translate(80px);
+  }
+  .pie-izq:hover{
+    transform: rotate(60deg);
+  }
+  .pie-der:hover{
+    transform: rotate(60deg);
+  }
+  .pie-izq {
+    position: absolute;
+    top: 76%;
+    right: 50%; 
+    z-index: -5;
+  }
+  .pie-der {
+    position: absolute;
+    top: 76%;
+    right: 35%; 
+    z-index: -5;
+  }
+  .bigote:hover{
+    transform: rotate(45deg);
+  }
+  .bigote{
+    position: absolute;
+    top: 56%;
+    right: 40%; 
+  }
+  .nariz{
+    position: absolute;
+    top: 43%;
+    right: 43%; 
+    z-index: 3;
+  }
+  .nariz:hover{
+    transform: rotate(360deg);
+    transition: 0.3s;
+  }
+  .bigote {
+    position: absolute;
+    top: 60%;
+    right: 40%; 
+    z-index: 3;
+  }
+   .pie-izq:hover
+{
+    transform: scale(125%) rotate(10deg);
+    z-index: 1;
+}
+  .pie-der:hover 
+{
+    transform: scale(80%) ;
+    z-index: -2;
+}
+  .sombrero:hover 
+{
+  transform: rotatex(160deg);
+  transition: transform 2s ease;
+    
+}
+  .ojo-izq:hover 
+{
+  transform: translateY(-100px);
+  transition: transform 1s ease;
+    
+}
+  .ojo-der:hover 
+{
+   transform: translateY(-100px);
+   transition: transform 1s ease;
+}
+  .oreja-der:hover
+{
+  transform: rotate(360deg);
+  transition: transform 2s ease;
+}
+  .oreja-izq:hover
+{
+  transform: rotate(360deg);
+  transition: transform 2s ease;
+}
+
+
+
+
+
+
